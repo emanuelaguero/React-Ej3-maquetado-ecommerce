@@ -2,8 +2,7 @@ const ItemCard = (props) => {
 
 
     return (
-        <>
-       
+        <>   
             <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
                 <div className="card p-0 overflow-hidedn h-100 shadow text-center">
                     <img src={props.url} className="card-img-top" alt="..." style={{width:""}} />
